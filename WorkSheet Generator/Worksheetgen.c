@@ -28,7 +28,7 @@ typedef struct Answers{
 Answers QuestionGen(int Max);
 
 
-void main(char c, char* v[]){
+int main(int c, char* v[]){
     FILE *WorkSheet;
     FILE *AnswerSheet;
     int EnteredDigits = (int)c - 1;
@@ -55,6 +55,7 @@ void main(char c, char* v[]){
     }
     fclose(WorkSheet);
     fclose(AnswerSheet);
+    return 0;
 }   
 
 Answers QuestionGen(int Max){
