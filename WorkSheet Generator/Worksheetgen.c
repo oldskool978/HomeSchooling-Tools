@@ -60,7 +60,7 @@ void main(char c, char* v[]){
 Answers QuestionGen(int Max){
     /*
                                     *TODO*
-      Add if condition for MAX, only us Defined if none given by charv Parser    
+                  Add if condition for MAX given charv Parser    
     */
     Answers Accum;
     Accum.QuestionA = rand() % MAX;
