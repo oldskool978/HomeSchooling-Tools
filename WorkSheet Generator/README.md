@@ -1,4 +1,4 @@
-# The Math Worksheet generator 
+# Math Worksheet Generator 
 
 generate multiplication question sheets and answer sheets at the click of a button.
 just run the application and be presented with two text files within the same folder its run. 
